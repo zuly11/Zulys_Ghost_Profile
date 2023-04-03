@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "myFirstFont";
+    src: url("fonts/KGHAPPY.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(139,45,253,1) 100%);
+height: auto;
+background-repeat: no-repeat;
+padding: 0px;
+margin: 0;
+font-family: monospace;
+}
+
+
+.headerhomepage {
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+justify-content: space-between;
+  background: rgba(34,193,195,1);
+
+box-shadow: 5px 5px 8px black, 10px 10px 8px rgba(139,45,253,1), 15px 15px 8px rgba(34,193,195,1);
+ margin: 0px;
+
+}
+
+nav {
+
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 30px;
+  float: right;
+
+}
+
+.navhome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+
+}
+.topnav {
+  display: inline;
+  list-style-type: none;
+  padding: 40px;
+  font-size: 25px;
+  float: right;
+
+}
+
+section {
+margin: 10%;
+
+}
+.homecontainer {
+  margin-top: 200px;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid rgba(139,45,253,1);
+
+}
+
+.title {
+  margin-left: 22px
+}
+
+h1.toptitle {
+
+border-bottom: 1px dotted rgba(34,193,195,1);
+
+}
+
+.link {
+color: rgba(139,45,253,1);
+text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+
+margin: 1px 2px;
+  background-color: #dddddd;
+  text-decoration: none;
+  min-width: 120px;
+}
+
+.otherlink {
+  color: rgba(34,193,195,1);
+}
+
+
+
+h1 {
+  padding-top: 30px;
+}
+
+.divq {
+  margin: 3rem;
+  display: flex;
+}
+
+.quote {
+
+background-color: #dddddd;
+font-size: 50px;
+padding-top: 30px;
+padding: 30px;
+border: 3px solid gray;
+font-family: "myFirstFont";
+
+}
+
+.card1 {
+  background-color: #dddddd;
+  padding: 40px;
+  margin: 20px;
+}
+
+.card2 {
+  background-color: black;
+color: #dddddd;
+  padding: 40px;
+  margin: 20px 5px;
+}
+
+img.aboutimg {
+  height: 265px;
+
+}
+figcaption {
+  margin-top: 5px;
+
+}
+
+
+.polaroid {
+  width: 284px;
+  padding: 10px 10px 35px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+
+
+img.portimg {
+  width: 10rem;
+  height: 5rem;
+}
+
+
+
+button {
+  background: black;
+  color: #dddddd;
+  padding: 2px 2px;
+  font-family: monospace;
+  border-radius: 7px;
+  height: 30px;
+
+}
+
+button:hover {
+  background-color: #dddddd;
+  color: black;
+  cursor: pointer;
+}
+.footernav {
+
+
+
+
+}
+
+a.iconh:hover {
+  border: 1px solid;
+  padding: 0px;
+  box-shadow: 5px 8px;
+  color: black;
+
+}
+
+.movingtext {
+  display: flex;
+  margin: 5px;
+  width: 120px;
+
+position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+a.iconh {
+  margin: 12px;
+}
+
+.icon {
+  height:35px;
+  width: 38px;
+}
+
+.secfooter {
+  margin: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #f1f1f1;
+padding: 10px;
+height: auto;
+text-align: center;
+}
+
+@media (min-width: 700px) {
+
+
+  }
+
+  @media (max-width: 700px) {
+
+    header {
+    width:auto;
+    }
+    nav {
+
+      display: flex;
+      flex-direction: column;
+    }
+}
